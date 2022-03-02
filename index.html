@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <body>
+    <title>Beach-bum Survey form</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+<body>
+  
+  <div class="container" class="bgimage">
+    
+  <h1 id="title">Beach-bum Survey form</h1>
+  <p id="description"><em>Thank you for taking the time to help us improve your holidays!</em></p>
+  <form id="survey-form">
+   <fieldset>
+     <label id="name-label">Name:<input id="name"type="text" placeholder="Enter your name" required></label>
+      <label id="email-label">Email:<input id="email"type="email" placeholder="Enter a valid email" required></label>
+     <label id="number-label">Age:<input id="number"type="number"min="10"  max="120"placeholder="Your Age" required></label>
+     <label>Sex <select  id="dropdown">
+       <option >Male</option>
+       <option >Female</option>
+       <option> Prefer not to say</option>
+     </select>
+    </label>
+    
+     <label></label>
+   </fieldset> 
+    <fieldset> <legend>Do you like beach vacations?</legend>
+      <label><input class="inline" name="beach-vacation"type="radio" value="yes">Absolutely</label>
+        <label><input class="inline" name="beach-vacation"type="radio" value="yes">Not really</label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>According to you,what are the must-dos on a beach vacay?</legend>
+      <label><input class="inline" type="checkbox" name="activity" value="sunbathe">Sunbathing in a bikini</label>
+       <label><input class="inline"type="checkbox"name="activity" value="volley">Playing beach volleyball</label>
+       <label><input class="inline"type="checkbox"name="activity" value="pinacolada">Sipping on a Pina colada</label>
+       <label><input class="inline"type="checkbox"name="activity"value="surf">Water sports like surfing</label>
+       <label><input class="inline"type="checkbox"name="activity" value="seafood">Coding on my laptop/phone</label>
+       <label><input class="inline"type="checkbox"name="activity" value="seafood">Gorge on delicious coastal cuisine</label>
+      
+    </fieldset>
+   
+    <fieldset>
+      <label>Additional comments  </label>
+       <textarea name="bio" rows="5" cols="30" placeholder="I like coding on the beach..."></textarea>
+      
+      
+    </fieldset>
+    <input id="submit" type="submit" value="submit">
+  </form>
+  
+</div> 
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
